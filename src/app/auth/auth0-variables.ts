@@ -8,6 +8,6 @@ interface AuthConfig {
 export const AUTH_CONFIG: AuthConfig = {
   clientID: 'w4ibtscMzP2Zs3jk6MteHwXZ422gGyQc',
   domain: 'blogtest.auth0.com',
-  callbackURL: 'https://silent-auth.now.sh/callback',
+  callbackURL: 'https://nameless-sea-38333.herokuapp.com',
   apiUrl: 'https://api.test.com'
 };
