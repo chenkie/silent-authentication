@@ -83,7 +83,7 @@ export class AuthService {
   public renew() {
     this.auth0.renewAuth({
       audience: AUTH_CONFIG.apiUrl,
-      redirectUri: 'https://nameless-sea-38333.herokuapp.com//silent',
+      redirectUri: 'https://nameless-sea-38333.herokuapp.com/silent',
       usePostMessage: true
     }, (err, result) => {
       if (err) {
